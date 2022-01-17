@@ -1,0 +1,16 @@
+#1- 运行参数
+runParams: #pytest.main()-----[]
+  - test_case/test_login.py
+  - test_case/test_shop.py
+  - -m #mark
+  - Shop #  mark标签
+  - -s
+  - --alluredir #报告参数
+  - &reportDir ./report/tmp #定义变量
+  - --clean-alluredir
+
+reportParams:
+  - allure serve
+  - *reportDir #使用变量
+
+

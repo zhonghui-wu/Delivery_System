@@ -1,0 +1,24 @@
+-
+  url: &url1 /account/sLogin #路径
+  method: &method1 POST #方法
+- #test_01用例
+  #url: *url1 #路径
+  #method: POST #方法
+  detail: 用户名正确，密码正确
+  data:
+    username: sq0777
+    password: xintian
+  resp:
+    code: 20000
+    msg: 成功
+
+- #test_02用例
+  #url: *url1 #路径
+  #method: POST #方法
+  detail: 用户名正确，密码为空
+  data:
+    username: sq0777
+    password: ""
+  resp:
+    code: 9999
+    msg: 输入的密码错误!

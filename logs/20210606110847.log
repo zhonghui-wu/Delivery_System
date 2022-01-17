@@ -1,0 +1,30 @@
+2021-06-06 11:08:47,204 - ERROR - test_login.py[37]:Traceback (most recent call last):
+  File "G:\SongQin\Python\Demo\Delivery_System-0523\test_case\test_login.py", line 35, in test_login
+    assert res['msg'] == expData['msg0']#断言：预期与实际相比较，一致返回真，不一致-假
+KeyError: 'msg0'
+
+2021-06-06 11:08:47,266 - ERROR - test_login.py[37]:Traceback (most recent call last):
+  File "G:\SongQin\Python\Demo\Delivery_System-0523\test_case\test_login.py", line 35, in test_login
+    assert res['msg'] == expData['msg0']#断言：预期与实际相比较，一致返回真，不一致-假
+KeyError: 'msg0'
+
+2021-06-06 11:08:47,345 - ERROR - test_login.py[37]:Traceback (most recent call last):
+  File "G:\SongQin\Python\Demo\Delivery_System-0523\test_case\test_login.py", line 35, in test_login
+    assert res['msg'] == expData['msg0']#断言：预期与实际相比较，一致返回真，不一致-假
+KeyError: 'msg0'
+
+2021-06-06 11:08:47,408 - ERROR - test_login.py[37]:Traceback (most recent call last):
+  File "G:\SongQin\Python\Demo\Delivery_System-0523\test_case\test_login.py", line 35, in test_login
+    assert res['msg'] == expData['msg0']#断言：预期与实际相比较，一致返回真，不一致-假
+KeyError: 'msg0'
+
+2021-06-06 11:08:47,474 - ERROR - test_login.py[37]:Traceback (most recent call last):
+  File "G:\SongQin\Python\Demo\Delivery_System-0523\test_case\test_login.py", line 35, in test_login
+    assert res['msg'] == expData['msg0']#断言：预期与实际相比较，一致返回真，不一致-假
+KeyError: 'msg0'
+
+2021-06-06 11:08:47,550 - ERROR - test_login.py[37]:Traceback (most recent call last):
+  File "G:\SongQin\Python\Demo\Delivery_System-0523\test_case\test_login.py", line 35, in test_login
+    assert res['msg'] == expData['msg0']#断言：预期与实际相比较，一致返回真，不一致-假
+KeyError: 'msg0'
+
